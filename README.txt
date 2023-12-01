@@ -14,21 +14,21 @@ Requirements
 
 Installation
 
-No specific installation is required. Ensure Java is properly installed on your system. Download Java from Oracle's official website.
+No specific installation is required, but you should ensure that a properly formatted questions.txt file is in the same directory as the program. A sample file has been included for reference. Ensure Java is properly installed on your system. Download Java from Oracle's official website.
 Usage
 
     Run the ExitExamRandomizer program.
     Enter the class ID to generate questions for a specific course. The class IDs are:
-        1015 for EAP questions.
-        1020 for UW questions.
-        001 for TED questions.
+        1015 for English for Academic Purposes questions.
+        1020 for University Writing questions.
+        001 for TESOL Educator Development questions.
     The program displays randomly selected questions for the chosen course. EAP and UW generate 5 questions each, and TED generates 8 questions.
     To generate questions for another course, enter the new class ID as prompted.
     To exit, enter 0 when prompted for a class ID.
 
 Customization
 
-    Modify the question sets by editing the UWQuestions, EAPQuestions, and TEDQuestions arrays in the ExitExamRandomizer class.
+    Modify the question sets by editing the UWQuestions, EAPQuestions, and TEDQuestions in the questions.txt file, which are read into the program at run time.
     Add more courses and questions by following the existing structure.
 
 Contributions
